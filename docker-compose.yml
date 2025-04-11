@@ -1,0 +1,10 @@
+version: '1'
+
+services:
+  jina-search-free-api:
+    container_name: jina-search-free-api
+    image: hub.kce.ksyun.com/van_repo/jina_search_reverse_api:0.7
+    restart: always
+    ports:
+      - "8005:4000"
+
